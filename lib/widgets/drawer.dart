@@ -21,6 +21,7 @@ class MyDrawer extends StatelessWidget {
                 margin: EdgeInsets.zero,
                   currentAccountPicture: CircleAvatar(
                     backgroundImage: NetworkImage(imageURL),
+                    radius: 5.0,
                   ),
                   accountName: Text( "Ibrahim Shahid",style: TextStyle(
                     fontSize: 20,
