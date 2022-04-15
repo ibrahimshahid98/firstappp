@@ -14,10 +14,10 @@ class MyDrawer extends StatelessWidget {
         children: [
           DrawerHeader(
             padding: EdgeInsets.zero,
-              decoration: BoxDecoration(color: Colors.brown),
+              decoration: BoxDecoration(color: Colors.indigoAccent),
               child: UserAccountsDrawerHeader(
 
-                decoration: BoxDecoration(color: Colors.brown),
+                decoration: BoxDecoration(color: Colors.indigoAccent),
                 margin: EdgeInsets.zero,
                   currentAccountPicture: CircleAvatar(
                     backgroundImage: NetworkImage(imageURL),
